@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "pixel" ;
+    src: url(./../fonts/Symtext.ttf);
+}
+
+
+
+.background-hero{
+    background: url(./../img/PANTALLA_L2.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
