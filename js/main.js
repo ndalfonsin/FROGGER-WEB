@@ -1,6 +1,6 @@
 const body = document.querySelector('body');
 const ranitaPlopMP3 = new Audio('./../audios/Ranita_Salto.wav');
-const scratchImage = $('#scratch-img'); 
+// const scratchImage = $('#scratch-img'); 
 
 // setInterval(() =>{
 //     if(scratchImage.css('left') == '90%') {
