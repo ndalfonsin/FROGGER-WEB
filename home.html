@@ -25,7 +25,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#documentacion" style="color: black;">Docs</a>
+                  <a class="nav-link" href="#documentation" style="color: black;">Docs</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#downloads" style="color: black;">Downloads</a>
@@ -35,62 +35,48 @@
           </div>
         </nav>
 
-      <!-- ########################## Navbar - END ########################## -->
+        <!-- ########################## Hero ########################## -->
 
-      <!-- ########################## Hero ########################## -->
-
-      <div class="container-fluid background-hero d-flex justify-content-center mb-3 p-5">
-        <div class="d-flex justify-content-center">
-          <iframe src="https://scratch.mit.edu/projects/759699624/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <div class="container-fluid background-hero d-flex justify-content-center mb-3 p-5">
+          <div class="d-flex justify-content-center">
+            <iframe src="https://scratch.mit.edu/projects/759699624/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
 
-      <!-- ########################## Hero - END ########################## -->
+        <!-- ########################## Hero - END ########################## -->
       
-<!-- ########################## Documentation ########################## -->
-        <!-- <div class="container text-center mt-4 mb-4">
-            <h3 class="self-center" id="documentacion-header">DOCUMENTACIÓN</h3>
-        </div> -->
-        <section id="documentacion">
+        <!-- ########################## Documentation ########################## -->
+
+        <section id="documentation">
           <br><br><br>
-          <div class="container my-5">
+          <div class="container">
             <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#niveles" type="button" role="tab" aria-controls="home" aria-selected="true">Niveles</button>
+                <button class="nav-link active show" id="escenarios-tab" data-bs-toggle="tab" data-bs-target="#escenarios" type="button" role="tab" aria-controls="escenario" aria-selected="false">Escenarios</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#escenarios" type="button" role="tab" aria-controls="profile" aria-selected="false">Escenarios</button>
+                <button class="nav-link" id="ranita-tab" data-bs-toggle="tab" data-bs-target="#ranita" type="button" role="tab" aria-controls="ranita" aria-selected="false">Ranita</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#ranita" type="button" role="tab" aria-controls="contact" aria-selected="false">Ranita</button>
+                <button class="nav-link" id="vehículo-tab" data-bs-toggle="tab" data-bs-target="#vehículo" type="button" role="tab" aria-controls="vehículo" aria-selected="false">Vehículo</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#vehículo" type="button" role="tab" aria-controls="contact" aria-selected="false">Vehículo</button>
+                <button class="nav-link" id="tortuguita-tab" data-bs-toggle="tab" data-bs-target="#tortuguita" type="button" role="tab" aria-controls="tortuguita" aria-selected="false">Tortuguita</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tortuguita" type="button" role="tab" aria-controls="contact" aria-selected="false">Tortuguita</button>
+                <button class="nav-link" id="madriguera-tab" data-bs-toggle="tab" data-bs-target="#madriguera" type="button" role="tab" aria-controls="madriguera" aria-selected="false">Madriguera</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#madriguera" type="button" role="tab" aria-controls="contact" aria-selected="false">Madriguera</button>
+                <button class="nav-link" id="madriguera-tab" data-bs-toggle="tab" data-bs-target="#bonus" type="button" role="tab" aria-controls="madriguera" aria-selected="false">Bonus</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#bonus" type="button" role="tab" aria-controls="contact" aria-selected="false">Bonus</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#dificultades-menu-inicio" type="button" role="tab" aria-controls="contact" aria-selected="false">Dificultades y Menú inicio</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#doc-variables" type="button" role="tab" aria-controls="contact" aria-selected="false">Documentación de Variables</button>
+                <button class="nav-link" id="dificultades-menu-inicio-tab" data-bs-toggle="tab" data-bs-target="#dificultades-menu-inicio" type="button" role="tab" aria-controls="dificultades-menu-inicio" aria-selected="false">Dificultades y Menú inicio</button>
               </li>
             </ul>
             <div class="tab-content my-3" id="myTabContent">
   
-              <!-- NIVELES -->
-              <div class="tab-pane fade px-2 show active" id="niveles" role="tabpanel" aria-labelledby="home-tab">...</div>
-              <!-- NIVELES - END -->
-  
               <!-- ESCENARIOS -->
-              <div class="tab-pane fade px-2" id="escenarios" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="tab-pane fade px-2 active show" id="escenarios" role="tabpanel" aria-labelledby="escenarios-tab">
                   <p>
                       A lo largo del desarrollo, no solo para interactuar entre los objetos, sino también para acciones
                       dentro de los mismos objetos se utilizan mensajes, ya que notamos que al extender mucho un mismo
@@ -115,7 +101,7 @@
                       tengan que hacer al recibir el siguiente nivel.
                   </p>
               </div>
-              <div class="tab-pane fade px-2" id="ranita" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="tab-pane fade px-2" id="ranita" role="tabpanel" aria-labelledby="ranita-tab">
                   <p> 
                       Para realizar el movimiento evaluamos dos condiciones muy necesarias para restringir el movimiento de la
                       rana. Se crean tres variables, “Vidas” (que corresponde a la cantidad de vidas de la rana), “Muerto”
@@ -127,7 +113,7 @@
               <!-- DIFICULTADES Y MENU INICIO -->
   
               <!-- VEHICULO -->
-              <div class="tab-pane fade px-2" id="vehículo" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="tab-pane fade px-2" id="vehículo" role="tabpanel" aria-labelledby="vehículo-tab">
                 <em><p>
                     ¿Sabias que son los clones en Scratch? Los clones son una funcionalidad de Scratch que nos permite crear indefinidas
                     copias de un objeto y que cada una de ellas se comporte de forma diferente, como queramos en
@@ -172,7 +158,7 @@
               <!-- VEHICULO - END -->
   
               <!-- TORTUGUITA -->
-              <div class="tab-pane fade px-2" id="tortuguita" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="tab-pane fade px-2" id="tortuguita" role="tabpanel" aria-labelledby="tortuguita-tab">
                   <p>
                       Llamamos este objeto metafóricamente como “La rebeldía de los clones” ya que fue el objeto que más
                       dificultad presentó al momento de la creación de los clones, para alinearlos y que no se superpongan
@@ -200,7 +186,7 @@
               <!-- TORTUGUITA - END -->
   
               <!-- MADRIGUERA -->
-              <div class="tab-pane fade px-2" id="madriguera" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="tab-pane fade px-2" id="madriguera" role="tabpanel" aria-labelledby="madriguera-tab">
                   <p>
                       Los disfraces de la madriguera, tanto en el nivel 3 (en el espacio) como en los niveles anteriores, fueron creados por nosotros.
                   </p>
@@ -215,7 +201,7 @@
               <!-- MADRIGUERA - END -->
   
               <!-- BONUS -->
-              <div class="tab-pane fade px-2" id="bonus" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="tab-pane fade px-2" id="bonus" role="tabpanel" aria-labelledby="bonus-tab">
                   <p>
                       El bonus vida está programado partiendo de dos bloques principales, Bonus_Vida, con las
                       características que este debe tener y Disfraz_Bonus_Vida que realiza una sutil animación que nos
@@ -226,7 +212,7 @@
               <!-- BONUS - END -->
   
               <!-- DIFICULTADES Y MENU INICIO -->
-              <div class="tab-pane fade px-2" id="dificultades-menu-inicio" role="tabpanel" aria-labelledby="contact-tab">                
+              <div class="tab-pane fade px-2" id="dificultades-menu-inicio" role="tabpanel" aria-labelledby="dificultades-menu-inicio-tab">                
                   <p>
                       El menú de inicio tiene por fondo uno que brinda Scratch dentro de su biblioteca y está compuesto
                       por 3 objetos: La ranita, Título y Botones. Se decidió que el juego comience con un movimiento
@@ -239,14 +225,10 @@
                       dependiendo la que elija el usuario. Por fortuna, al momento de plantear los objetos que van a ser
                       los obstáculos de la ranita, creamos una variable global que mencionamos anteriormente,
                       “V_Global_Der” y “V_Global_Izq”. De esta manera, planteamos que los niveles de dificultad, afecten
-                      el número de esa variable y provoque que los objetos se muevan más rápido o más lento
+                      el número de esa variable y provoque que los objetos se muevan más rápido o más lento.
                   </p>
               </div>
               <!-- DIFICULTADES Y MENU INICIO - END-->
-  
-              <!-- DOCUMENTACION DE VARIABLES -->
-              <div class="tab-pane fade px-2" id="doc-variables" role="tabpanel" aria-labelledby="contact-tab">...</div>
-              <!-- DOCUMENTACION DE VARIABLES - END -->
             </div>
           </div>
       </section>
@@ -258,7 +240,7 @@
         <br><br><br>
         <div class="downloads-bg">
           <div class="downloads justify-content-center align-items-center d-flex p-2 m-0">
-            <h1>Downloads</h1>
+            <h2>Downloads</h2>
           </div>
           <div class="container" >
             <div class="row d-flex justify-content-center align-items-center">
