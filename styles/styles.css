@@ -70,3 +70,51 @@ iframe {
 }  
 
 /* ########################## Downloads - END ########################## */
+@keyframes walk {
+    from {left: 0;}
+    to{left: 90%;}
+}
+@keyframes steps {
+    from {transform: rotate(-20deg);}
+    to{transform: rotate(20deg);}
+}
+@keyframes spin {
+    form {transform: rotate(0deg);}
+    to  {transform: rotate(360deg);}
+}
+
+
+
+
+.scratch-container {
+    position: relative;
+}
+
+#scratch-img {
+    left: 0;
+    position: absolute;
+    top: 10px;
+    animation: walk 4s ease-in-out alternate infinite, steps 0.2s linear alternate infinite;
+}
+
+
+@media (max-width: 768px) {
+    #scratch-img {
+        left: 90%;
+        animation: spin 1s linear infinite;
+    }
+}
+
+
+/* Footer */
+footer {
+    background-image: linear-gradient(to bottom, #252525 10%, black 100%);
+}
+
+.footer-link {
+    border-bottom: 1px solid #AAAAAA;
+}
+.footer-link, .footer-link:visited, .footer-link:hover, .footer-link:active{
+    text-decoration: none !important;
+    color: #AAAAAA !important;
+}
