@@ -74,12 +74,14 @@ iframe {
 
 /* ########################## Downloads - END ########################## */
 @keyframes walk {
-    from {left: 5%;}
-    to{left: 90%;}
+    0% {left: 5%;transform: scaleX(100%);}
+    49% {transform: scaleX(100%);}
+    50%{left: 90%; transform: scaleX(-100%);}
+    99%{left: 6%; transform: scaleX(-100%);}
 }
 @keyframes steps {
-    from {transform: rotate(-20deg);}
-    to{transform: rotate(20deg);}
+    from {rotate: -20deg;}
+    to{rotate: 20deg;}
 }
 @keyframes spin {
     form {transform: rotate(0deg);}
@@ -97,7 +99,7 @@ iframe {
     left: 5%;
     position: absolute;
     top: 10px;
-    animation: walk 4s ease-in-out alternate infinite, steps 0.2s linear alternate infinite;
+    animation: walk 4s ease-in-out infinite, steps 0.3s linear alternate infinite;
 }
 
 
