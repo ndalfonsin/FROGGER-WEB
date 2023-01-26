@@ -3,7 +3,15 @@
     src: url(./../fonts/Symtext.ttf);
 }
 
+:root {
+    --color-primary: rgba(88, 250, 59, 1);
+}
 
+/* ########################## Navbar ########################## */
+
+/* ########################## Navbar - END ########################## */
+
+/* ########################## Hero ########################## */
 
 .background-hero{
     background: url(./../img/PANTALLA_L2.jpg); 
@@ -14,4 +22,41 @@
 iframe {
     border-radius: 20px;
 }
+
+/* ########################## Hero - END ########################## */
+
+/* ########################## Documentation ########################## */
+
+#documentacion-header {
+    border-bottom: 2px solid #AAAAAA;
+}
+.tab-content {
+    height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+.tab-pane p {
+    text-indent: 2em;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.tab-pane a, .tab-pane a:visited, .tab-pane a:hover, .tab-pane a:active{
+    color: var(--color-primary);
+}
+
+.nav .active {
+    background-color: var(--color-primary)!important;
+}
+.nav-item {
+    margin: 0px 6px;
+}
+
+/* ########################## Documentation - END ########################## */
+
+
+
+
+
+
 
