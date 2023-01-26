@@ -11,3 +11,7 @@
     background-position: center;
 }
 
+iframe {
+    border-radius: 20px;
+}
+
