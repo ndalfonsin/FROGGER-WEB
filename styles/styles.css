@@ -30,14 +30,14 @@ iframe {
 #documentacion-header {
     border-bottom: 2px solid #AAAAAA;
 }
-.tab-content {
-    height: 500px;
-    max-height: 500px;
+/* .tab-content {
+    height: 300px;
+    max-height: 550px;
     overflow-y: auto;
-}
+} */
 .tab-pane p {
     text-indent: 2em;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
