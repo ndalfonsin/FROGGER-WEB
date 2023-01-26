@@ -21,6 +21,7 @@
 
 iframe {
     border-radius: 20px;
+    user-select: none;
 }
 
 /* ########################## Hero - END ########################## */
