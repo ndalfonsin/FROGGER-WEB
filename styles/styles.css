@@ -9,7 +9,10 @@
 
 /* ########################## Navbar ########################## */
 
-
+.fa-bars {
+    border: black!important;
+    color:black!important;
+}
 
 /* ########################## Navbar - END ########################## */
 
@@ -71,7 +74,7 @@ iframe {
 
 /* ########################## Downloads - END ########################## */
 @keyframes walk {
-    from {left: 0;}
+    from {left: 5%;}
     to{left: 90%;}
 }
 @keyframes steps {
@@ -91,7 +94,7 @@ iframe {
 }
 
 #scratch-img {
-    left: 0;
+    left: 5%;
     position: absolute;
     top: 10px;
     animation: walk 4s ease-in-out alternate infinite, steps 0.2s linear alternate infinite;
@@ -100,7 +103,7 @@ iframe {
 
 @media (max-width: 768px) {
     #scratch-img {
-        left: 90%;
+        left: 86%;
         animation: spin 1s linear infinite;
     }
 }
