@@ -3697,7 +3697,7 @@ textarea.form-control-lg {
   --bs-nav-tabs-border-color: #AAAAAA;
   --bs-nav-tabs-border-radius: 0.375rem;
   --bs-nav-tabs-link-hover-border-color: #AAAAAA;
-  --bs-nav-tabs-link-active-color: #fff;
+  --bs-nav-tabs-link-active-color: black;
   --bs-nav-tabs-link-active-bg: #AAAAAA;
   --bs-nav-tabs-link-active-border-color: rgb(var(--bs-primary-rgb));
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
